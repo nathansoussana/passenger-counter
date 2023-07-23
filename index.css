@@ -1,17 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-  background-image: url("yarn.jpeg");
+  background-image: url("https://images.unsplash.com/photo-1553184257-604db3e574a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80");
   background-size: cover;
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #f2f2f2;
   text-align: center;
   height: 100vh;
+  display: flex;
 }
 
 .container {
-  background: white;
-  max-width: 80%;
+  background: #212f45;
+  max-width: 400px;
   margin: auto;
-  border: 3px solid black;
+  box-shadow: 0px 0px 2px #212f45;
   border-radius: 10px;
+  padding: 50px 25px;
 }
 
 h1 {
@@ -26,22 +31,37 @@ h2 {
 }
 
 button {
-  border: 1px solid black;
+  border: 0px 0px 2px #212f45;
   padding-top: 10px;
   padding-bottom: 10px;
   color: white;
   font-weight: bold;
-  width: 200px;
   margin-bottom: 5px;
   border-radius: 5px;
+  margin: 3px auto;
+  background-color: #006466;
+  transition: 0.1s ease-in-out;
 }
 
 #increment-btn {
-  background: #2C2891;
+  width: 100px;
+}
+
+#decrement-btn {
+  width: 100px;
 }
 
 #save-btn {
-  background: #1C7947;
+  width: 206px;
+}
+
+#reset-btn {
+  width: 206px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #0b525b;
 }
 
 #save-el {
