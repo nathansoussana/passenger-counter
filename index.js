@@ -20,5 +20,7 @@ function save() {
 }
 
 function reset() {
-  saveEl.textContent = "Entries: "
+    count = 0
+    countEl.textContent = 0
+    saveEl.textContent = "Entries: "
 }
